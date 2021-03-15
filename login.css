@@ -1,0 +1,68 @@
+body{
+    background: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    background-color: rgba(13, 95, 45, 0.5);
+    width: 30%;
+    height: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    color: #FFFFFF;
+     box-shadow: 0px 0px 8px #000000;
+}
+.main .head{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 50px;
+}
+.head h1{
+    /* background-color: blueviolet; */
+    line-height: 50px;
+    padding-left: 10px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.form-panel{
+    /* background-color: #ff00ff; */
+    width: 100%;
+    height: auto;
+}
+.form-group{
+    display: block;
+    height: 50px;
+    padding: 10px;
+    /* background-color: chartreuse; */
+}
+.form-group label{
+    /* background-color: chocolate; */
+    display: block;
+}
+.form-group input[type=text],
+.form-group input[type=password]
+{
+    width: 100%;
+    height: 30px;
+    outline-color: seagreen;
+}
+.form-group input[type=submit]{
+    width: 30%;
+    height: 40px;
+    background-color: palegreen;
+    border: springgreen;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+.form-group input[type=submit]:hover{
+    color:lightcoral;
+    background-color: green;
+    box-shadow: 0px 0px 5px #000;
+}  
+.form-group input[type=submit]:active{
+    color:lightcoral;
+    background-color: green;
+    box-shadow: none;
+}  
